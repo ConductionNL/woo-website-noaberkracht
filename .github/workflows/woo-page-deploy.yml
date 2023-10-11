@@ -15,7 +15,7 @@ env: # Change these to your preferences any image url can also be a base encoded
   JUMBOTRON_IMAGE_URL: "https://werkenbijnoaberkracht.nl/imager/hero/2253/862_0d33baa1153e758942327cdee707898a.webp"
   FOOTER_LOGO_URL: "https://werkenbijnoaberkracht.nl/assets/img/base/logo.png"
   FOOTER_LOGO_HREF: "https://werkenbijnoaberkracht.nl/"
-  FOOTER_CONTENT: '[{"title":"Algemeen","items":[{"label":"Website","value":"www.werkenbijnoaberkracht.nl","link":"https://werkenbijnoaberkracht.nl/"},{"label": "Contact", "value": "Neem contact op", "https://werkenbijnoaberkracht.nl/contact"}]},{"title":"Contact","items":[{"label":"Phone number","value":"+ 31(0)541 - 85 41 00","link":"tel:+31(0)541854100"},{"label":"Email address","value":"info@noaberkracht.nl","link":"mailto:info@noaberkracht.nl"},{"label":"Address","value":"Postbus 11, 7591 MA Denekamp"}]}]'
+  FOOTER_CONTENT: '[{"title":"Algemeen","items":[{"label":"Website","value":"www.werkenbijnoaberkracht.nl","link":"https://werkenbijnoaberkracht.nl/"},{"label":"Contact","value":"Neem contact op","link":"https://werkenbijnoaberkracht.nl/contact"}]},{"title":"Contact","items":[{"label":"Phone number","value":"+ 31(0)541 - 85 41 00","link":"tel:+31(0)541854100"},{"label":"Email address","value":"info@noaberkracht.nl","link":"mailto:info@noaberkracht.nl"},{"label":"Address","value":"Postbus 11, 7591 MA Denekamp"}]}]'
   OIDN_NUMBER: "00000001852070706000"
 
 on:
