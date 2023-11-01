@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Algemeen",
+        "items": [
+            {
+                "label": "Website",
+                "value": "www.werkenbijnoaberkracht.nl",
+                "link": "https://werkenbijnoaberkracht.nl/"
+            },
+            {
+                
+                "value": "Privacy",
+                "link": "https://werkenbijnoaberkracht.nl/privacy"
+            },
+            {
+               
+                "value": "Toegankelijkheid",
+                "link": "https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/"
+            },
+            {
+              
+                "value": "Over deze website",
+                "link": "https://werkenbijnoaberkracht.nl/"
+            }
+        ]
+    },
+    {
+        "title": "Contact",
+        "items": [
+            {
+                "label": "Phone number",
+                "value": "+ 31(0)541 - 85 41 00",
+                "link": "tel:+31(0)541854100"
+            },
+            {
+                "label": "Email address",
+                "value": "info@noaberkracht.nl",
+                "link": "mailto:info@noaberkracht.nl"
+            },
+            {
+                "label": "Address",
+                "value": "Postbus 11, 7591 MA Denekamp"
+            },
+            {
+                "label": "Contact",
+                "value": "Neem contact op",
+                "link": "https://werkenbijnoaberkracht.nl/contact"
+            }
+        ]
+    }
+]
