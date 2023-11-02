@@ -1,51 +1,61 @@
 [
-    {
-        "title": "Algemeen",
-        "items": [
-            {
-                "label": "Website",
-                "value": "www.werkenbijnoaberkracht.nl",
-                "link": "https://werkenbijnoaberkracht.nl/"
-            },
-            {
-                
-                "value": "Privacy",
-                "link": "https://werkenbijnoaberkracht.nl/privacyverklaring"
-            },
-            {
-               
-                "value": "Toegankelijkheid",
-                "link": "https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/"
-            },
-            {
-              
-                "value": "Over deze website",
-                "markdownLink": "https://raw.githubusercontent.com/ConductionNL/woo-website-template/main/docs/Over%20deze%20website.md"
-            }
-        ]
-    },
-    {
-        "title": "Contact",
-        "items": [
-            {
-                "label": "Phone number",
-                "value": "+ 31(0)541 - 85 41 00",
-                "link": "tel:+31(0)541854100"
-            },
-            {
-                "label": "Email address",
-                "value": "info@noaberkracht.nl",
-                "link": "mailto:info@noaberkracht.nl"
-            },
-            {
-                "label": "Address",
-                "value": "Postbus 11, 7591 MA Denekamp"
-            },
-            {
-                "label": "Contact",
-                "value": "Neem contact op",
-                "link": "https://werkenbijnoaberkracht.nl/contact"
-            }
-        ]
-    }
+  {
+    "title": "Algemeen",
+    "items": [
+      {
+        "ariaLabel": "Website",
+        "value": "www.werkenbijnoaberkracht.nl",
+        "link": "https://werkenbijnoaberkracht.nl/",
+        "icon": { "prefix": "fas", "icon": "globe", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Privacy",
+        "value": "Privacy",
+        "link": "https://werkenbijnoaberkracht.nl/privacyverklaring",
+        "icon": { "prefix": "fas", "icon": "circle-exclamation", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Toegankelijkheid",
+        "value": "Toegankelijkheid",
+        "link": "https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/",
+        "icon": { "prefix": "fas", "icon": "user-shield", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Over deze website",
+        "value": "Over deze website",
+        "markdownLink": "https://raw.githubusercontent.com/ConductionNL/woo-website-template/main/docs/Over%20deze%20website.md",
+        "icon": { "prefix": "fas", "icon": "circle-info", "placement": "left" }
+      }
+    ]
+  },
+  {
+    "title": "Contact",
+    "items": [
+      {
+        "ariaLabel": "Phone number",
+        "value": "+ 31(0)541 - 85 41 00",
+        "link": "tel:+31(0)541854100",
+        "icon": { "prefix": "fas", "icon": "phone", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Email address",
+        "value": "info@noaberkracht.nl",
+        "link": "mailto:info@noaberkracht.nl",
+        "icon": { "prefix": "fas", "icon": "at", "placement": "left" }
+      },
+
+      {
+        "ariaLabel": "Contact",
+        "value": "Contact",
+        "link": "https://werkenbijnoaberkracht.nl/contact",
+        "icon": { "prefix": "fas", "icon": "earth-europe", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Address",
+        "label": "Address",
+        "value": "Postbus 11, 7591 MA Denekamp",
+        "icon": { "prefix": "fas", "icon": "location-dot", "placement": "left" }
+      }
+    ]
+  }
 ]
