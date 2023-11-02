@@ -46,13 +46,12 @@
 
       {
         "ariaLabel": "Contact",
-        "value": "Contact",
+        "value": "Neem contact op",
         "link": "https://werkenbijnoaberkracht.nl/contact",
         "icon": { "prefix": "fas", "icon": "earth-europe", "placement": "left" }
       },
       {
         "ariaLabel": "Address",
-        "label": "Address",
         "value": "Postbus 11, 7591 MA Denekamp",
         "icon": { "prefix": "fas", "icon": "location-dot", "placement": "left" }
       }
